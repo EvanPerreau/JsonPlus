@@ -7,7 +7,7 @@ Cette bibliothèque JavaScript fournit des méthodes pour la manipulation de fic
 Pour utiliser cette bibliothèque, assurez-vous d'avoir [Node.js](https://nodejs.org) installé sur votre machine. Ensuite, vous pouvez l'importer dans votre projet comme suit :
 
 ```javascript
-const JsonPus = require('chemin/vers/main.js');
+const JsonPus = require('chemin/vers/JsonPlus/main.js');
 ```
 
 ## Méthodes publiques
