@@ -47,24 +47,26 @@ JsonPus.removeKeyPairsFromFile('chemin/vers/fichier.json', ['clé1', 'clé2']);
 
 ### `getValueByKeyFromFile(filePath, key)` 
 
-Renvoie la clé et la valeur d'un fichier JSON sous forme d'un tableau ["clé", "valeur"]
+Renvoie la clé et la valeur d'un fichier JSON sous forme d'un tableau `["clé", "valeur"]`
 
 - `filePath` : le chemin vers le fichier JSON.
 - `key` : la clé dont nous voulons connaître le valeur.
 
 ```javascript
-JsonPus.getValueByKeyFromFile('chemin/vers/fichier.json', clé);
+const data = JsonPus.getValueByKeyFromFile('chemin/vers/fichier.json', clé);
+console.log(data);
 ```
 
 ### `getKeysByValueFromFile(filePath, value)`
 
-Renvoie la/les clé(s) et la valeur d'un fichier JSON sous forme d'un tableau [["clé 1", "valeur"]["clé 2", "valeur"]]
+Renvoie la/les clé(s) et la valeur d'un fichier JSON sous forme d'un tableau `[["clé 1", "valeur"]["clé 2", "valeur"]]`
 
 - `filePath` : le chemin vers le fichier JSON.
 - `value` : la valeur dont nous voulons connaître la/les clé(s).
 
 ```javascript
-JsonPus.getValueByKeyFromFile('chemin/vers/fichier.json', valeur);
+const data = JsonPus.getValueByKeyFromFile('chemin/vers/fichier.json', valeur);
+console.log(data);
 ```
 
 ### `deleteFile(filePath)`
